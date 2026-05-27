@@ -94,6 +94,8 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        {/* Custom: 不開放搜尋引擎索引（user 選擇「完全公開但不開放搜尋」） */}
+        <meta name="robots" content="noindex, nofollow" />
 
         {css.map((resource) => CSSResourceToStyleElement(resource, true))}
         {js
