@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: null
   locale: zh-TW
-  baseUrl: darrenlee.github.io/darrens-note-evoo
+  baseUrl: p4raw4ku.github.io/darrens-note-evoo
   ignorePatterns:
     - private
     - templates
