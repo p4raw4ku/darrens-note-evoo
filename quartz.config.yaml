@@ -197,7 +197,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: github:quartz-community/footer
-    enabled: true
+    enabled: false
     options:
       links: {}
   - source: github:quartz-community/recent-notes
