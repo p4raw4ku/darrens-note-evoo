@@ -20,7 +20,7 @@ configuration:
     fontOrigin: googleFonts
     cdnCaching: true
     typography:
-      header: Noto Sans TC
+      header: Iansui
       body: Iansui
       code: JetBrains Mono
     colors:
@@ -30,7 +30,7 @@ configuration:
         gray: "#939f91"
         darkgray: "#5c6a72"
         dark: "#404c51"
-        secondary: "#8da101"
+        secondary: "#6f7d0a"
         tertiary: "#35a77c"
         highlight: rgba(141, 161, 1, 0.1)
         textHighlight: "#dfa00088"
@@ -40,7 +40,7 @@ configuration:
         gray: "#859289"
         darkgray: "#d3c6aa"
         dark: "#e6e2cc"
-        secondary: "#a7c080"
+        secondary: "#93b06a"
         tertiary: "#83c092"
         highlight: rgba(167, 192, 128, 0.1)
         textHighlight: "#dbbc7f88"
