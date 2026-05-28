@@ -364,6 +364,23 @@ export function renderPage(
               }),
             ]}
           </Body>
+          {/* Custom: 站台 disclaimer（每頁顯示、不依賴 footer 外掛） */}
+          <footer
+            class="site-disclaimer"
+            style={{
+              maxWidth: "750px",
+              margin: "1rem auto 2.5rem",
+              padding: "1rem 2rem 0",
+              borderTop: "1px solid var(--lightgray)",
+              color: "var(--gray)",
+              fontSize: "0.78rem",
+              lineHeight: "1.7",
+              textAlign: "center",
+            }}
+          >
+            本站為個人整理的研究筆記，僅供參考，<strong>非專業醫療、營養或食品安全建議</strong>。
+            內容資料截至 2026 年 5 月，可能隨研究進展而過時；如有健康或飲食疑慮，請諮詢專業醫師、營養師或相關機構。
+          </footer>
         </div>
       </body>
       {pageResources.js
